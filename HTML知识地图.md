@@ -52,38 +52,6 @@ HTML 的基本结构为：
 - `&nbsp;`：空格
 - `&copy;`：版权符号
 
-## meta 标签
-
-### WHAT
-
-meta 主要用于设置网页中的一些元数据，元数据不是给用户看的，而是给浏览器和搜索引擎看的。
-
-### WHY
-
-编码/解码方式、网页关键字等元数据是跟页面上的内容没关系的。但是，这些信息对搜索引擎和浏览器又很重要。HTML 中，这些元数据放在 `meta` 标签中。
-
-### HOW
-
-- charset 指定网页的字符集。
-
-  `<meta charset="UTF-8">`
-
-- name 和 content 对指定元数据。name 指定的数据的名称，content 指定的数据的内容。
-
-  - keywords 表示网站的关键字，可以同时指定多个关键字，关键字间使用 `,` 隔开。
-
-    `<meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,京东"/>`
-
-  - description 用于指定网站的描述。网站的描述会显示在搜索引擎的搜索的结果中。
-
-    `<meta name="description" content="京东JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!"/>`
-
-- http-equiv 和 content 重定向到另一个网页。
-
-  `<meta http-equiv="refresh" content="3;url=https://www.mozilla.org">`
-
-## TODO `<base>, <link>, <script>, <style> or <title>`
-
 ## 块标签和行内标签
 
 - 块标签（block element）。在网页中一般通过块标签来对页面进行布局。
